@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<!--购物车样式表-->
+		<link rel="stylesheet" type="text/css" href="css/cart.css" />
+		<!--操作cookie的js文件-->
+		<script type="text/javascript" src="js/cookie.js"></script>
+                 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+        <link rel="stylesheet" href="http//www.css3china.com/wp-content/iconfont/demo.html">
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=David+Libre|Hind:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	</head>
+         
+
+	<body>
+            <div class="container"style="padding-top:20px;">
+    <div class="row" >
+        <div class="col-md-7">
+             <img src="images/zhengxing_logo.jpg" style="width:195px;height:45px;">
+        </div>
+        <div class="col-md-5" >
+       <ul class="nav nav-tabs">
+	<li><a href="#"style="background:#FFFFFF;color:#000000;">网站首页</a></li>
+	<li><a href="#"style="background:#FFFFFF;color:#000000;">产品中心</a></li>
+	<li><a href="#"style="background:#FFFFFF;color:#000000;">关于正星</a></li>
+        <li><a href="#"style="background:#FFFFFF;color:#000000;">服务与支持</a></li> 
+        </ul>
+           </div>
+    </div>
+   </div>
+            <div class="row">
+             <img src="images/cart_banner.jpg" style="width:100%;">
+       </div>
+		<div class="container">
+			
+			<h3><a href="index.html"style="color:red">返回商品列表页面</a></h3>
+			<table id="table" border="1" cellspacing="0" cellpadding="0" class="hide">
+				<thead>
+					<tr>
+						<th>
+							<input type="checkbox" id="allCheck" class="ck" />全选
+						</th>
+						<th>
+							产品图片
+						</th>
+						<th>
+							产品信息
+						</th>
+						<th>
+							产品数量
+						</th>
+						<th>
+							价格
+						</th>
+						<th>
+							小计
+						</th>
+						<th>
+							删除
+						</th>
+					</tr>
+				</thead>
+				<tbody id="tbody">
+					<!--
+					<tr>
+						<td>
+							<input type="checkbox" class="ck"  />
+						</td>
+						<td>
+							<img src="images/p1.jpg" alt="" />
+						</td>
+						<td>
+							v12T米色
+						</td>
+						<td>
+							<button class="down">-</button><input type="text" value="1" readonly="readonly" /><button class="up">+</button>
+						</td>
+						<td>
+							￥<span>111</span>
+						</td>
+						<td>
+							￥<span>111</span>
+						</td>
+						<td>
+							<button class="del"  >删除</button>
+						</td>
+					</tr>
+					-->
+				</tbody>
+			</table>
+			<div class="box" id="box">购物车里没有任何商品</div>
+			<h2 id="h2" class="">总价格：￥<span id="totalPrice">0</span><a href="jiesuan.html"><button type="button" class="btn btn-default">提交</button></a></h2>
+                        
+		</div>
+            <div style="margin-top: 200px;"></div>
+		<script src="js/server.js" type="text/javascript" charset="utf-8"></script>
+		<!--操作购物车页面的cart.js-->
+		<script src="js/cart.js"></script>
+	</body>
+
+</html>
